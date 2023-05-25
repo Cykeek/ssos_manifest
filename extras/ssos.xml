@@ -14,7 +14,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="ssos" />                     
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="ssos" groups="pdk" >                             
+  <project path="build/make" name="ssos_build" remote="Cykeek" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -49,16 +49,16 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="ssos" />                                 
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="ssos" />                  
-  <project path="frameworks/native" name="android_frameworks_native" remote="ssos" />              
-  <project path="frameworks/av" name="android_frameworks_av" remote="ssos" />                      
+  <project path="frameworks/base" name="ssos_frameworks_base" remote="Cykeek" />                  
+  <project path="frameworks/native" name="ssos_frameworks_native" remote="Cykeek" />              
+  <project path="frameworks/av" name="ssos_frameworks_av" remote="Cykeek" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="ssos" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ssos" />   
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ssos" />
+  <project path="frameworks/opt/net/wifi" name="ssos_frameworks_opt_net_wifi" remote="Cykeek" />
+  <project path="frameworks/opt/telephony" name="ssos_frameworks_opt_telephony" remote="Cykeek" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="ssos" />
 
   <!-- Manifest -->
-  <project path="manifest" name="android_manifest" remote="ssos" />                                
+  <project path="manifest" name="ssos_manifest" remote="Cykeek" />  
 
   <!-- Hardware -->
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="ssos" />        
@@ -79,16 +79,16 @@
 
   <!-- Packages -->
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="ssos" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ssos" />                           
+  <project path="packages/apps/Settings" name="ssos_packages_apps_Settings" remote="Cykeek" />                           
   <project path="packages/apps/Settings/ShapeShifter" name="android_packages_apps_ShapeShifter" remote="ssos" />
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ssos" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ssos" />                          
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="ssos" />                               
+  <project path="packages/apps/Dialer" name="ssos_packages_apps_Dialer" remote="Cykeek" />                               
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="ssos" />                         
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ssos" />                          
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ssos" />                         
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ssos" />           
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ssos" />                   
+  <project path="packages/services/Telecomm" name="ssos_packages_services_Telecomm" remote="Cykeek" />                   
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ssos" />                 
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="ssos" />   
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="ssos" />                                      
@@ -101,7 +101,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ssos" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="ssos" />                    
+  <project path="system/core" name="ssos_system_core" remote="Cykeek" />                    
   <project path="system/vold" name="android_system_vold" remote="ssos" />                    
   <project path="system/bt" name="android_system_bt" remote="ssos" />                        
   <project path="system/security" name="android_system_security" remote="ssos" />
@@ -119,7 +119,7 @@
   <project path="tools/metalava" name="android_tools_metalava" remote="ssos" />
 
   <!-- Vendor -->
-  <project path="vendor/ssos" name="android_vendor_ssos" remote="ssos"  />       
+  <project path="vendor/ssos" name="ssos_vendor" remote="Cykeek"  />       
   <project path="vendor/support" name="android_vendor_support" remote="ssos"  /> 
   
   <!-- QTI BT -->

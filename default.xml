@@ -63,6 +63,10 @@
            fetch="https://github.com/ShapeShiftOS-Devices"
            revision="android_11" />
 
+  <remote  name="Cykeek"
+           fetch="https://github.com/Cykeek"
+           revision="android_11" />
+
   <remote  name="los"
            fetch="https://github.com/lineageos"/>
 
